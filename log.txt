@@ -2060,3 +2060,290 @@ main.getStats.func1()
 	/Users/john/programs/recent/statUI/main.go:56 +0xd4
 created by main.getStats in goroutine 19
 	/Users/john/programs/recent/statUI/main.go:51 +0x48
+2024/12/24 05:37:16 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 05:37:46 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x10102ffb4]
+
+goroutine 7 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:56 +0xd4
+created by main.getStats in goroutine 35
+	/Users/john/programs/recent/statUI/main.go:51 +0x48
+2024/12/24 05:38:38 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 05:39:06 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 05:39:13 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 05:39:31 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 05:39:32 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 05:39:59 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 05:40:29 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x104b3ffb4]
+
+goroutine 21 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:56 +0xd4
+created by main.getStats in goroutine 7
+	/Users/john/programs/recent/statUI/main.go:51 +0x48
+2024/12/24 05:40:44 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 05:41:14 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x104a5ffb4]
+
+goroutine 25 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:56 +0xd4
+created by main.getStats in goroutine 19
+	/Users/john/programs/recent/statUI/main.go:51 +0x48
+2024/12/24 05:41:36 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 05:42:06 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x104bebfb4]
+
+goroutine 21 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:56 +0xd4
+created by main.getStats in goroutine 7
+	/Users/john/programs/recent/statUI/main.go:51 +0x48
+2024/12/24 05:42:33 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 05:43:03 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x104a6bfb4]
+
+goroutine 21 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:56 +0xd4
+created by main.getStats in goroutine 7
+	/Users/john/programs/recent/statUI/main.go:51 +0x48
+2024/12/24 05:43:11 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 05:43:41 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x1028cffb4]
+
+goroutine 21 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:56 +0xd4
+created by main.getStats in goroutine 7
+	/Users/john/programs/recent/statUI/main.go:51 +0x48
+2024/12/24 05:43:43 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 05:44:13 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x10238ffb4]
+
+goroutine 25 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:56 +0xd4
+created by main.getStats in goroutine 19
+	/Users/john/programs/recent/statUI/main.go:51 +0x48
+2024/12/24 05:57:59 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 05:58:29 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x102fcbfb4]
+
+goroutine 21 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:56 +0xd4
+created by main.getStats in goroutine 7
+	/Users/john/programs/recent/statUI/main.go:51 +0x48
+2024/12/24 05:59:53 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:00:07 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:00:37 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+2024/12/24 06:00:40 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+2024/12/24 06:00:43 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+2024/12/24 06:00:46 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+2024/12/24 06:00:49 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+2024/12/24 06:00:52 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+2024/12/24 06:00:55 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+2024/12/24 06:00:58 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+2024/12/24 06:01:01 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+2024/12/24 06:01:04 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+2024/12/24 06:01:07 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+2024/12/24 06:01:10 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+2024/12/24 06:01:13 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+2024/12/24 06:01:16 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+2024/12/24 06:01:19 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+2024/12/24 06:01:22 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+2024/12/24 06:01:25 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+2024/12/24 06:01:28 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+2024/12/24 06:01:31 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+2024/12/24 06:01:34 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+2024/12/24 06:01:37 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+2024/12/24 06:01:39 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:01:48 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:02:15 main.go:53: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+2024/12/24 06:04:32 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:04:59 main.go:53: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+2024/12/24 06:05:14 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:05:41 main.go:53: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+2024/12/24 06:06:18 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:06:45 main.go:53: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+2024/12/24 06:07:13 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:07:42 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:08:09 main.go:53: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+2024/12/24 06:09:10 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:09:37 main.go:53: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+2024/12/24 06:09:55 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:10:01 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:10:28 main.go:53: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+2024/12/24 06:11:30 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:11:34 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:11:47 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:12:03 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:12:30 main.go:53: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+2024/12/24 06:12:39 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:13:06 main.go:53: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+2024/12/24 06:13:15 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:13:42 main.go:53: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+2024/12/24 06:14:30 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:14:38 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:15:02 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:15:29 main.go:53: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+2024/12/24 06:15:39 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:15:43 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:16:10 main.go:53: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+2024/12/24 06:16:16 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:16:43 main.go:53: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+2024/12/24 06:16:53 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:17:12 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:17:34 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:17:51 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:18:06 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:18:36 main.go:53: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+2024/12/24 06:19:04 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:19:05 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:19:35 main.go:53: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+2024/12/24 06:20:17 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:20:47 main.go:53: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+2024/12/24 06:22:08 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:22:25 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:22:55 main.go:53: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+2024/12/24 06:22:58 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:23:09 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:23:34 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:24:04 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:24:34 main.go:53: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+2024/12/24 06:24:51 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:25:21 main.go:53: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+2024/12/24 06:26:44 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:27:14 main.go:53: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+2024/12/24 06:34:51 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:35:21 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+2024/12/24 06:37:07 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:37:13 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:37:19 main.go:54: Get "http://mysterygift.org": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024/12/24 06:38:25 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 06:38:31 main.go:54: Get "http://mysterygift.org": context deadline exceeded (Client.Timeout exceeded while awaiting headers)

@@ -35,7 +35,7 @@ func main() {
 		defer f.Close()
 	}
 
-	go getStats()
+	getStats()
 	ctx, srv := bolt()
 
 	log.Println("Waiting for connections @ http://localhost" + srv.Addr)
@@ -45,18 +45,19 @@ func main() {
 }
 
 func getStats() {
-	for {
-		for _, u := range urls_ {
-			urls[u] = &stat{URL: u, Status: 0, LastChecked: time.Now().Local()}
-			go func() {
-				r, err := http.Get("http://" + u)
-				if err != nil {
-					log.Println(err)
-				}
-				urls[u].Status = r.StatusCode
+	for _, u := range urls_ {
+		urls[u] = &stat{URL: u, Status: 0, LastChecked: time.Now().Local()}
+		go func() {
+			client := &http.Client{Timeout: 6 * time.Second}
+			r, err := client.Get("http://" + u)
+			if err != nil {
+				log.Println(err)
+				urls[u].Status = 0
 				urls[u].LastChecked = time.Now().Local()
-			}()
-		}
-		time.Sleep(3 * time.Second)
+				return
+			}
+			urls[u].Status = r.StatusCode
+			urls[u].LastChecked = time.Now().Local()
+		}()
 	}
 }

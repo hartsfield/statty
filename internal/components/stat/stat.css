@@ -16,6 +16,9 @@
 .notOK {
     background-color: #ff7243;
 }
+.OKcheck {
+    background-color: #ffe24a;
+}
 .status {
     margin: 0.1em;
     padding: 0.3em;
