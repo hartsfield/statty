@@ -13,6 +13,7 @@ var urls_ []string = []string{
 	"tagmachine.xyz",
 	"walboard.xyz",
 	"bolt-marketing.org",
+	"mysterygift.org",
 }
 
 var urls map[string]*stat = make(map[string]*stat)
@@ -46,7 +47,7 @@ func main() {
 func getStats() {
 	for {
 		for _, u := range urls_ {
-			urls[u] = &stat{URL: u}
+			urls[u] = &stat{URL: u, Status: 0, LastChecked: time.Now().Local()}
 			go func() {
 				r, err := http.Get("http://" + u)
 				if err != nil {
@@ -55,9 +56,7 @@ func getStats() {
 				urls[u].Status = r.StatusCode
 				urls[u].LastChecked = time.Now().Local()
 			}()
-			time.Sleep(500 * time.Millisecond)
 		}
 		time.Sleep(3 * time.Second)
-		fmt.Println()
 	}
 }

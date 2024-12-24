@@ -9,9 +9,14 @@
     padding: 1em;
     max-width: 60ch;
 }
-.status {
+.OK {
     background: #e8ffb6;
     color: #92d239;
+}
+.notOK {
+    background-color: #ff7243;
+}
+.status {
     margin: 0.1em;
     padding: 0.3em;
     border-radius: 0.2em;

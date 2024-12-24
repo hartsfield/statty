@@ -2,7 +2,7 @@
 	{{ range $k, $v :=  .Stats }}
 		<div class='stat-inner' onclick="window.location = 'http://{{$k}}'">
             <div class='next-lines'>
-                <div class='item-part status'>{{ $v.Status }}</div>
+                <div class='item-part status OK' id="status">{{ $v.Status }}</div>
                 <div class='item-part url-string'>{{ $v.URL }}</div>
                 <!-- <div class='item-part last-checked'>{{ $v.LastChecked }}</div> -->
             </div>

@@ -1501,3 +1501,562 @@ main.getStats.func1()
 	/Users/john/programs/recent/statUI/main.go:55 +0xd4
 created by main.getStats in goroutine 19
 	/Users/john/programs/recent/statUI/main.go:50 +0x68
+2024/12/24 03:41:37 main.go:40: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+
+2024/12/24 03:41:44 main.go:40: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 03:42:43 main.go:40: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 03:43:31 main.go:40: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 03:43:51 main.go:40: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 03:46:20 main.go:40: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 03:51:22 main.go:40: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 03:52:01 main.go:40: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 03:52:08 main.go:40: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 03:52:30 main.go:40: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 03:53:02 main.go:40: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 03:53:07 main.go:40: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 03:53:13 main.go:40: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 03:53:36 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 03:54:06 main.go:54: Get "http://mysterygift.org": dial tcp [fe80::4001:aff:fe80]:80: connect: no route to host
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x102b53fb4]
+
+goroutine 37 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:56 +0xd4
+created by main.getStats in goroutine 19
+	/Users/john/programs/recent/statUI/main.go:51 +0x48
+2024/12/24 03:54:59 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 03:55:14 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 03:55:44 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x10436ffb4]
+
+goroutine 37 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:56 +0xd4
+created by main.getStats in goroutine 19
+	/Users/john/programs/recent/statUI/main.go:51 +0x48
+2024/12/24 03:57:44 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 03:58:14 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x10100bfb4]
+
+goroutine 37 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:56 +0xd4
+created by main.getStats in goroutine 19
+	/Users/john/programs/recent/statUI/main.go:51 +0x48
+2024/12/24 04:00:44 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:01:14 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x1050bffb4]
+
+goroutine 21 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:56 +0xd4
+created by main.getStats in goroutine 7
+	/Users/john/programs/recent/statUI/main.go:51 +0x48
+2024/12/24 04:04:13 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:04:25 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:04:55 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x10498ffb4]
+
+goroutine 24 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:56 +0xd4
+created by main.getStats in goroutine 19
+	/Users/john/programs/recent/statUI/main.go:51 +0x48
+2024/12/24 04:06:12 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:06:42 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x104fa3fb4]
+
+goroutine 37 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:56 +0xd4
+created by main.getStats in goroutine 19
+	/Users/john/programs/recent/statUI/main.go:51 +0x48
+2024/12/24 04:06:57 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:07:03 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:07:33 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x100fa3fb4]
+
+goroutine 37 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:56 +0xd4
+created by main.getStats in goroutine 19
+	/Users/john/programs/recent/statUI/main.go:51 +0x48
+2024/12/24 04:08:32 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:09:02 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x1008e3fb4]
+
+goroutine 21 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:56 +0xd4
+created by main.getStats in goroutine 7
+	/Users/john/programs/recent/statUI/main.go:51 +0x48
+2024/12/24 04:09:14 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:09:31 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:10:01 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x102f37fb4]
+
+goroutine 21 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:56 +0xd4
+created by main.getStats in goroutine 7
+	/Users/john/programs/recent/statUI/main.go:51 +0x48
+2024/12/24 04:10:02 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:10:32 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x104753fb4]
+
+goroutine 21 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:56 +0xd4
+created by main.getStats in goroutine 7
+	/Users/john/programs/recent/statUI/main.go:51 +0x48
+2024/12/24 04:11:05 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:11:35 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x101027fb4]
+
+goroutine 37 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:56 +0xd4
+created by main.getStats in goroutine 19
+	/Users/john/programs/recent/statUI/main.go:51 +0x48
+2024/12/24 04:12:24 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:12:54 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x100d07fb4]
+
+goroutine 37 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:56 +0xd4
+created by main.getStats in goroutine 19
+	/Users/john/programs/recent/statUI/main.go:51 +0x48
+2024/12/24 04:14:53 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:15:21 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:15:49 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:16:13 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:16:30 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:17:00 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x104687fb4]
+
+goroutine 37 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:56 +0xd4
+created by main.getStats in goroutine 19
+	/Users/john/programs/recent/statUI/main.go:51 +0x48
+2024/12/24 04:17:14 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:17:44 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x1025bffb4]
+
+goroutine 37 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:56 +0xd4
+created by main.getStats in goroutine 19
+	/Users/john/programs/recent/statUI/main.go:51 +0x48
+2024/12/24 04:18:55 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:19:11 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:19:14 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:19:44 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x104aa3fb4]
+
+goroutine 6 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:56 +0xd4
+created by main.getStats in goroutine 35
+	/Users/john/programs/recent/statUI/main.go:51 +0x48
+2024/12/24 04:20:09 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:20:39 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x10442ffb4]
+
+goroutine 21 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:56 +0xd4
+created by main.getStats in goroutine 7
+	/Users/john/programs/recent/statUI/main.go:51 +0x48
+2024/12/24 04:21:08 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:21:13 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:21:43 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x1032cffb4]
+
+goroutine 21 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:56 +0xd4
+created by main.getStats in goroutine 7
+	/Users/john/programs/recent/statUI/main.go:51 +0x48
+2024/12/24 04:21:46 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:21:59 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:22:29 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x100f17fb4]
+
+goroutine 25 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:56 +0xd4
+created by main.getStats in goroutine 19
+	/Users/john/programs/recent/statUI/main.go:51 +0x48
+2024/12/24 04:23:11 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:23:35 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:24:05 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x1009b7fb4]
+
+goroutine 21 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:56 +0xd4
+created by main.getStats in goroutine 7
+	/Users/john/programs/recent/statUI/main.go:51 +0x48
+2024/12/24 04:24:12 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:24:42 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x10268bfb4]
+
+goroutine 37 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:56 +0xd4
+created by main.getStats in goroutine 19
+	/Users/john/programs/recent/statUI/main.go:51 +0x48
+2024/12/24 04:26:04 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:26:19 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:26:47 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:27:17 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x100787fb4]
+
+goroutine 21 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:56 +0xd4
+created by main.getStats in goroutine 7
+	/Users/john/programs/recent/statUI/main.go:51 +0x48
+2024/12/24 04:27:27 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:27:34 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:28:04 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x10331bfb4]
+
+goroutine 21 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:56 +0xd4
+created by main.getStats in goroutine 7
+	/Users/john/programs/recent/statUI/main.go:51 +0x48
+2024/12/24 04:28:48 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:29:18 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x100c8ffb4]
+
+goroutine 21 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:56 +0xd4
+created by main.getStats in goroutine 7
+	/Users/john/programs/recent/statUI/main.go:51 +0x48
+2024/12/24 04:29:39 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:29:58 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:30:28 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:30:34 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:31:04 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x102983fb4]
+
+goroutine 37 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:56 +0xd4
+created by main.getStats in goroutine 19
+	/Users/john/programs/recent/statUI/main.go:51 +0x48
+2024/12/24 04:31:40 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:32:10 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x1029b7fb4]
+
+goroutine 9 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:56 +0xd4
+created by main.getStats in goroutine 19
+	/Users/john/programs/recent/statUI/main.go:51 +0x48
+2024/12/24 04:32:15 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:32:45 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x10261bfb4]
+
+goroutine 37 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:56 +0xd4
+created by main.getStats in goroutine 19
+	/Users/john/programs/recent/statUI/main.go:51 +0x48
+2024/12/24 04:32:55 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:33:01 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:33:10 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:33:17 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:33:47 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x104b63fb4]
+
+goroutine 37 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:56 +0xd4
+created by main.getStats in goroutine 19
+	/Users/john/programs/recent/statUI/main.go:51 +0x48
+2024/12/24 04:34:39 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:34:58 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:35:15 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:35:45 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x100a4ffb4]
+
+goroutine 21 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:56 +0xd4
+created by main.getStats in goroutine 7
+	/Users/john/programs/recent/statUI/main.go:51 +0x48
+2024/12/24 04:36:42 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:37:11 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:37:16 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:37:46 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x1045fbfb4]
+
+goroutine 37 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:56 +0xd4
+created by main.getStats in goroutine 19
+	/Users/john/programs/recent/statUI/main.go:51 +0x48
+2024/12/24 04:37:55 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:38:02 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:38:15 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:38:20 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:38:50 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x102a67fb4]
+
+goroutine 37 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:56 +0xd4
+created by main.getStats in goroutine 19
+	/Users/john/programs/recent/statUI/main.go:51 +0x48
+2024/12/24 04:39:16 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:39:26 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:39:56 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x104ae7fb4]
+
+goroutine 9 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:56 +0xd4
+created by main.getStats in goroutine 19
+	/Users/john/programs/recent/statUI/main.go:51 +0x48
+2024/12/24 04:40:50 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:41:02 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:41:30 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:41:41 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:41:46 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:42:16 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x1026effb4]
+
+goroutine 13 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:56 +0xd4
+created by main.getStats in goroutine 7
+	/Users/john/programs/recent/statUI/main.go:51 +0x48
+2024/12/24 04:42:20 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:42:47 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:42:57 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:43:25 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:43:55 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x10047ffb4]
+
+goroutine 9 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:56 +0xd4
+created by main.getStats in goroutine 19
+	/Users/john/programs/recent/statUI/main.go:51 +0x48
+2024/12/24 04:44:06 main.go:41: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 04:44:36 main.go:54: Get "http://mysterygift.org": dial tcp 34.82.33.110:80: i/o timeout
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x10057ffb4]
+
+goroutine 37 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:56 +0xd4
+created by main.getStats in goroutine 19
+	/Users/john/programs/recent/statUI/main.go:51 +0x48
