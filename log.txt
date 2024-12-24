@@ -1381,3 +1381,70 @@ Waiting for connections @ http://localhost:9555
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024/12/24 02:39:09 main.go:53: Get "http://hrtsfld.xyz": dial tcp 34.44.7.19:80: connect: connection refused
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x10325bf44]
+
+goroutine 801 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:55 +0xd4
+created by main.getStats in goroutine 7
+	/Users/john/programs/recent/statUI/main.go:50 +0x68
+2024/12/24 02:41:55 main.go:40: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 02:41:55 main.go:53: Get "http://hrtsfld.xyz": dial tcp 34.44.7.19:80: connect: connection refused
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x1030ebf44]
+
+goroutine 33 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:55 +0xd4
+created by main.getStats in goroutine 19
+	/Users/john/programs/recent/statUI/main.go:50 +0x68
+2024/12/24 02:42:22 main.go:40: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 02:42:22 main.go:53: Get "http://hrtsfld.xyz": dial tcp 34.44.7.19:80: connect: connection refused
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x104ea3f44]
+
+goroutine 33 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:55 +0xd4
+created by main.getStats in goroutine 19
+	/Users/john/programs/recent/statUI/main.go:50 +0x68
+2024/12/24 02:42:35 main.go:40: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
+2024/12/24 02:42:35 main.go:53: Get "http://hrtsfld.xyz": dial tcp 34.44.7.19:80: connect: connection refused
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x1031fff44]
+
+goroutine 33 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:55 +0xd4
+created by main.getStats in goroutine 5
+	/Users/john/programs/recent/statUI/main.go:50 +0x68
+2024/12/24 02:57:17 main.go:40: Waiting for connections @ http://localhost:9555
+
+Waiting for connections @ http://localhost:9555
