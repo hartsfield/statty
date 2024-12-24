@@ -6,6 +6,7 @@ async function everyTime() {
     statuses[i].classList.remove("notOK");
     statuses[i].classList.remove("OK");
     statuses[i].classList.add("OKcheck");
+    statuses[i].innerHTML = "";
 
     fetch("https://" + urls[i], {signal: AbortSignal.timeout(6000)})
        .then((response) => {
