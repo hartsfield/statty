@@ -1448,3 +1448,56 @@ created by main.getStats in goroutine 5
 2024/12/24 02:57:17 main.go:40: Waiting for connections @ http://localhost:9555
 
 Waiting for connections @ http://localhost:9555
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024/12/24 03:33:13 main.go:53: Get "http://bolt-marketing.org": dial tcp: lookup bolt-marketing.org: no such host
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x10 pc=0x102857f44]
+
+goroutine 1444 [running]:
+main.getStats.func1()
+	/Users/john/programs/recent/statUI/main.go:55 +0xd4
+created by main.getStats in goroutine 19
+	/Users/john/programs/recent/statUI/main.go:50 +0x68
