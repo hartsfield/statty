@@ -1,0 +1,37 @@
+.stat-inner {
+    border-radius: 0.4em;
+    background-color: white;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+.stat-outer {
+    padding: 1em;
+}
+.status {
+    background: #e8ffb6;
+    color: #92d239;
+    margin: 0.1em;
+    padding: 0.3em;
+    border-radius: 0.2em;
+    margin-right: 0.3em;
+    min-width: 1.8em;
+    text-align: center;
+}
+.next-lines {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    font-size: 1.5em;
+}
+
+.url-string {
+    width: 100%;
+    margin: 0.1em;
+    padding: 0.3em;
+    border-radius: 0.2em;
+    color: #ef9167;
+    background: #ececec;
+}

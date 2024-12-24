@@ -1,0 +1,14 @@
+<div class="template-wrapper stat-outer" id="stat-outer">
+	{{ range $k, $v :=  .Stats }}
+		<div class='stat-inner' onclick="window.location = 'http://{{$k}}'">
+            <div class='next-lines'>
+                <div class='item-part status'>{{ $v.Status }}</div>
+                <div class='item-part url-string'>{{ $v.URL }}</div>
+                <!-- <div class='item-part last-checked'>{{ $v.LastChecked }}</div> -->
+            </div>
+		</div>
+	{{ end }}
+</div>
+<style>{{ template "stat.css" . }}</style>
+<script>{{ template "stat.js" . }}</script>
+</div>
