@@ -10,8 +10,13 @@ async function everyTime() {
 
     fetch("https://" + urls[i], {signal: AbortSignal.timeout(6000)})
        .then((response) => {
-            statuses[i].innerHTML = response.status;
-            statuses[i].classList.add("OK");
+            if (response.ok) {
+                statuses[i].innerHTML = response.status;
+                statuses[i].classList.add("OK");
+            } else {
+                statuses[i].innerHTML = "";
+                statuses[i].classList.add("notOK");
+            }
         })
         .catch((error_) => {
             statuses[i].innerHTML = "";
