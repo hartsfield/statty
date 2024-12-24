@@ -3,24 +3,25 @@ var i = urls.length - 1;
 var statuses = document.getElementsByClassName("status");
 console.log(i)
 async function everyTime() {
-    statuses[i].classList.remove("notOK");
-    statuses[i].classList.remove("OK");
     statuses[i].classList.add("OKcheck");
     statuses[i].innerHTML = "";
 
-    fetch("https://" + urls[i], {signal: AbortSignal.timeout(6000)})
+    fetch("https://" + urls[i], {signal: AbortSignal.timeout(4000)})
        .then((response) => {
             if (response.ok) {
                 statuses[i].innerHTML = response.status;
                 statuses[i].classList.add("OK");
+                statuses[i].classList.remove("notOK");
             } else {
                 statuses[i].innerHTML = "";
                 statuses[i].classList.add("notOK");
+                statuses[i].classList.remove("OK");
             }
         })
         .catch((error_) => {
             statuses[i].innerHTML = "";
             statuses[i].classList.add("notOK");
+            statuses[i].classList.remove("OK");
             console.log(error_);
         })
         .finally(() => {
