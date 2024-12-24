@@ -17,7 +17,9 @@
     background-color: #ff7243;
 }
 .OKcheck {
-    background-color: #ffe24a;
+    animation-name: throb;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
 .status {
     margin: 0.1em;
@@ -43,4 +45,10 @@
     border-radius: 0.2em;
     color: #ef9167;
     background: #ffffff;
+}
+
+@keyframes throb {
+    0% {background-color: #ffaa00;}
+    50% {background-color: #ffea7b;}
+    100% {background-color: #ffaa00;}
 }
