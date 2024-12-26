@@ -1,0 +1,13 @@
+.qr-outer {
+    margin: 1em;
+}
+
+.qr-svg {
+    background-color: #008588;
+    padding: 3%;
+    border-radius: 0.9em;
+    /* backdrop-filter: blur(10px); */
+    /* box-shadow: 0 0 54px -10px #ffffff; */
+    filter: invert(1);
+}
+

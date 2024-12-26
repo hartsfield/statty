@@ -10,11 +10,11 @@
     max-width: 60ch;
 }
 .OK {
-    background: #e8ffb6;
+    background: #c8d0b6;
     color: #92d239;
 }
 .notOK {
-    background-color: #ff7243;
+    background-color: #d17875;
 }
 .OKcheck {
     animation-name: throb;
@@ -43,7 +43,7 @@
     margin: 0.1em;
     padding: 0.3em;
     border-radius: 0.2em;
-    color: #ef9167;
+    color: #d17875;
     background: #ffffff;
 }
 

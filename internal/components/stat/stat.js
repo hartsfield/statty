@@ -1,6 +1,6 @@
 var urls = ["hrtsfld.xyz", "bolt-marketing.org", "mysterygift.org", "tagmachine.xyz", "walboard.xyz"];
 var i = urls.length - 1;
-var statuses = document.getElementsByClassName("status");
+var statuses = document.getElementsByClassName("stat-inner");
 
 function everyTime() {
     statuses[i].classList.remove("OK");
@@ -10,19 +10,16 @@ function everyTime() {
         .then((response) => {
             console.log(urls[i], response)
             if (response.ok) {
-                statuses[i].innerHTML = response.status;
                 statuses[i].classList.remove("OKcheck");
                 statuses[i].classList.remove("notOK");
                 statuses[i].classList.add("OK");
             } else {
-                statuses[i].innerHTML = "";
                 statuses[i].classList.remove("OKcheck");
                 statuses[i].classList.remove("OK");
                 statuses[i].classList.add("notOK");
             }
         })
         .catch((error_) => {
-            statuses[i].innerHTML = "";
             statuses[i].classList.remove("OK");
             statuses[i].classList.remove("OKcheck");
             statuses[i].classList.add("notOK");
@@ -36,7 +33,6 @@ function everyTime() {
             statuses[i].classList.remove("OK");
             statuses[i].classList.remove("notOK");
             statuses[i].classList.add("OKcheck");
-            statuses[i].innerHTML = "";
         });
 }
 everyTime();
